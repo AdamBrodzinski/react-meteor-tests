@@ -1,0 +1,10 @@
+/* CSS declarations go here */
+html {
+  font-family: sans-serif;
+}
+
+button {
+  height: 25px;
+  margin: 7px 10px;
+  display: block;
+}
