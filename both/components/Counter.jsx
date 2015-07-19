@@ -22,6 +22,10 @@ Counter = React.createClass({
     this.setState({isHidden: toggled});
   },
 
+  sumTwoNumbers(a, b) {
+    return a + b;
+  },
+
   handleInc() {
     CounterActions.incrementCount();
   },
@@ -35,7 +39,7 @@ Counter = React.createClass({
       <div className='Counter'>
         <h1>Meteor Counter</h1>
 
-        <p>Checkout the tests in the tests directory!</p>
+        <div>Checkout the tests in the tests directory!</div>
 
         <button id='inc' onClick={this.handleInc}>Increment</button>
         <button id='dec' onClick={this.handleDec}>Decrement</button>
