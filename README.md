@@ -6,6 +6,7 @@
 - Mocha coming soon
 
 #### TODO
+- Shallow rendering (without DOM)
 - Test Domains (data fetching object)
 - Test Actions
 - Integration tests
