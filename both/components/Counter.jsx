@@ -45,6 +45,7 @@ Counter = React.createClass({
         <button id='dec' onClick={this.handleDec}>Decrement</button>
 
         <p>The count is: <b>{ this.data.count }</b></p>
+        <EvenOdd countNumber={ this.data.count } />
       </div>
     );
   }
