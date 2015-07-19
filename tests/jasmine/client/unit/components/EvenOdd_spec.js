@@ -25,7 +25,7 @@ describe("EvenOdd Component", function() {
     expect($el.text()).toBe("5 is Odd");
   });
 
-  it("should print out odd", function() {
+  it("should print out even", function() {
     renderWithProps({countNumber: 4});
     expect($el.text()).toBe("4 is Even");
   });
